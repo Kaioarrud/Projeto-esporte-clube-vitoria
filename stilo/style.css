@@ -19,6 +19,9 @@
     --font-vinaSans: 'VinaSans';
 }
 body{
+    background-image: url('imagem/barradao-vitoria-bandeira.jpg');
+}
+body{
     background-color: var(--cor1);
     font-family: var(--font-padrao);
 }
