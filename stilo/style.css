@@ -18,10 +18,12 @@
     --font-destaque: 'bebas neue', 'vina sans';
     --font-vinaSans: 'VinaSans';
 }
-body{
+body {
+    
     background-color: var(--cor1);
     font-family: var(--font-padrao);
 }
+
  
 header {
     background-color: var(--cor2);
