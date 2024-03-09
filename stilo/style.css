@@ -120,14 +120,24 @@ div.video {
     padding-bottom: 54%;
     position: relative;
 }
-div.video>iframe{
+div.video>iframe {
     position: absolute;
     top: 5%;
     left: 5%;
     width: 90%;
     height: 90%;
 }
-
+div.mapa>iframe {
+    position: relative;
+    left: 5%;
+    width: 90%;
+    
+}
+a > iframe {
+    height: 600;
+    width: 700;
+    text-align: center;
+}
 footer{
     background-color: black;
     color: white;
