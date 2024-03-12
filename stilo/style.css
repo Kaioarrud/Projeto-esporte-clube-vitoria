@@ -31,10 +31,10 @@ header {
     padding-top: 20px;
 }
 header h1{
-    color: #FF0000;
+    color: white;
     font-family: var(--font-destaque);
     font-weight: normal;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
 }
 header> p{
@@ -46,22 +46,25 @@ header> p{
     margin: auto;
     text-shadow: 2px 2px opx rgb(0, 0, 0);
 }
-nav#Redes-socias img {
+section#Redes-socias img {
     width: 30px;
-    margin: 10px;
+    margin: 15px;
     border-radius: 50px;
-    box-sizing: border-box;
+    box-sizing: border-box;   
+    text-align: center;
 }
-nav#Redes-socias img:hover{
+
+section#Redes-socias img:hover{
     border: 2px solid white;
     transform: translate(-3px, -3px);
 }
 
-nav {
+section {
     font-family: var(--font-padrao);
     background-color: var(--cor2);
-    padding: 10px;
-    box-shadow: 1px 1px;
+    padding: 30px;
+    box-shadow: 2px 2px;
+    text-align: center;
 }
 
 main {
