@@ -46,24 +46,24 @@ header> p{
     margin: auto;
     text-shadow: 2px 2px opx rgb(0, 0, 0);
 }
+nav#Redes-socias img {
+    width: 30px;
+    margin: 10px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+nav#Redes-socias img:hover{
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+}
+
 nav {
-    
     font-family: var(--font-padrao);
     background-color: var(--cor2);
     padding: 10px;
     box-shadow: 1px 1px;
 }
-nav> a{
-    color: white;
-    padding: 0px;
-    border-radius: 0px;
-    text-decoration: none;
-    font-weight: bold;
-}
-nav a:hover{
-    background-color: var(--cor1);
-    color: var(--cor0);
-}
+
 main {
     background-color: white;
     margin-bottom: 30px;
