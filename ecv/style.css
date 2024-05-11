@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+header ul, li {
+    min-height: 15px;
+    padding-top: 20px;
+}
