@@ -1,12 +1,18 @@
 @charset "UTF-8";
 
-*{
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
+body {
+    margin-bottom: 100px;
 }
 
-header ul, li {
-    min-height: 15px;
-    padding-top: 20px;
+header { 
+    text-align: center;
+    background: blueviolet;
+}   
+
+ul , li , a{
+    
+    list-style: none;
+}
+main {
+    background: navy;
 }
