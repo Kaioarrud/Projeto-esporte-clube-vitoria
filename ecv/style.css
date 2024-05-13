@@ -1,18 +1,25 @@
 @charset "UTF-8";
 
-body {
-    margin-bottom: 100px;
+body , ul , li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 17px;
+    
 }
 
-header { 
-    text-align: center;
-    background: blueviolet;
-}   
-
+header {
+    background: gray;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
 ul , li , a{
     
-    list-style: none;
-}
-main {
-    background: navy;
+    display: flex;
+    margin-left: 10px;
+    padding: 10px;
+
 }
