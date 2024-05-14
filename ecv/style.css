@@ -10,20 +10,36 @@
 header {
     background: grey;
     display: flex;
-    justify-content: space-between;
     padding: 10px;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
     flex-direction: row-reverse;
 }
-nav > ul > li > a{
+nav > ul > li > a {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     align-items: center;
     text-decoration: none;
 }
+i#burguer {
+    color: white;
+    display: block;
+    padding: 10px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    cursor: pointer;
+}
 
+.flex {
+    display: flex;
+}
+.flex li {
+    margin-left: 10px;
+}
+
+ 
 /* Typical device break points
 ------------------------------
 Pequenas telas: até 600px
@@ -33,9 +49,15 @@ Destop: 992px até 1200px
 Grande telas: acima de 1200px
 */
 
-@media screen and (max-width: 1200px) and (min-width:767px) {
+@media screen and (max-width: 768px) {
     header {
         background: red;
         padding: 10px;
     }
+    .flex {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    
 }
