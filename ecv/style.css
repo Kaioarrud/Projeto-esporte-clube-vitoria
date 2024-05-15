@@ -1,13 +1,11 @@
 @charset "UTF-8";
 
+
 * {
     margin: 0px;
-    padding: 0px;    
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
 }
-
-header {
+header {  
     background: grey;
     display: flex;
     padding: 10px;
@@ -15,31 +13,38 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
+
 }
-nav > ul > li > a {
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-}
-i#burguer {
+i#burguer{
     color: white;
     display: block;
     padding: 10px;
-    flex-direction: row-reverse;
-    justify-content: space-between;
     cursor: pointer;
 }
 
-.flex {
-    display: flex;
+i#burguer:hover {
+    color: black;
+
 }
-.flex li {
-    margin-left: 10px;
+menu {
+    display: none;
+}
+menu > ul > li > a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(87, 87, 87);
+    color: white;
+    border-top: 2px solid gray;
 }
 
- 
+menu > ul > li > a:hover {
+    background-color: black;
+}
+
+
 /* Typical device break points
 ------------------------------
 Pequenas telas: até 600px
@@ -49,15 +54,21 @@ Destop: 992px até 1200px
 Grande telas: acima de 1200px
 */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     header {
         background: red;
-        padding: 10px;
     }
-    .flex {
-        display: flex;
-        flex-direction: column-reverse;
-
+    i#burguer {
+        display: none;
     }
-    
+    menu {
+        display: block;
+    }
+    menu > ul > li {
+       
+        display: inline-block;
+    }
+    main {
+        width: 768px;
+    }
 }
