@@ -1,11 +1,9 @@
 @charset "UTF-8";
 
-
 * {
     margin: 0px;
     padding: 0px;
     list-style: none;
-
 }
 header {  
     background: black;
@@ -44,8 +42,6 @@ menu > ul > li > a {
 menu > ul > li > a:hover {
     background-color: red;
 }
-
-
 /* Typical device break points
 ------------------------------
 Pequenas telas: até 600px
@@ -71,4 +67,14 @@ Grande telas: acima de 1200px
     main {
         width: 768px;
     }
+}
+.vitoria {
+    background-image: url(../imagem/torcida01.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
