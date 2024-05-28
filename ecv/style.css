@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     list-style: none;
+   
 }
 header {  
     background: black;
@@ -42,6 +43,29 @@ menu > ul > li > a {
 menu > ul > li > a:hover {
     background-color: red;
 }
+
+.vitoria {
+    background-image: url(../imagem/torcida01.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.vitoria > h1 {
+    color: black;
+    font-size: 2rem;
+}
+.btn {
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:wheat;
+    color: black;
+    cursor: pointer;
+}
 /* Typical device break points
 ------------------------------
 Pequenas telas: até 600px
@@ -67,14 +91,4 @@ Grande telas: acima de 1200px
     main {
         width: 768px;
     }
-}
-.vitoria {
-    background-image: url(../imagem/torcida01.jpg);
-    background-size: cover;
-    min-height: 100vh;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
 }
