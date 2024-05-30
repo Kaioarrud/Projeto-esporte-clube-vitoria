@@ -43,31 +43,19 @@ menu > ul > li > a:hover {
     background-color: red;
 }
 
-/* Typical device break points
-------------------------------
-Pequenas telas: até 600px
-Celular: de 600px até 768px
-Tablet: 768px até 992px
-Destop: 992px até 1200px 
-Grande telas: acima de 1200px
-*/
 @media screen and (min-width: 768px) {
-    header {
+    header >  menu > ul > li {
         background: black;
-    }
-    i#burguer {
-        display: none;
-    }
-    menu {
-        display: block;
-    }
-    menu > ul > li {
         display: inline-block;
     }
-    main {
-        width: 768px;
+    i#burguer{
+        display: none;  
+    }
+    menu { 
+    display: block;
     }
 }
+/* vitoria */
 
 .vitoria {
     background-image: url(../imagem/torcida01.jpg);
@@ -118,19 +106,18 @@ Grande telas: acima de 1200px
     display: flex;
     flex-wrap: wrap;
 }
-.conheca-o-vitoria li {
-    height: 350px;
-    padding: 20px;
-    border-radius: 4px;
-    background-clip: content-box;
-    background-size: cover;
-    background-position: center;
+.conheca-o-vitoria > hr {
+    width: 200px;
+    height: 1px;
+    margin-bottom: 70px;
+    border: none;
+    background-color: black;
 }
-.conheca-o-vitoria .grid .vitoria {
-    flex-basis: 100%;
+.vitoria72 > img  {
+    width: 400px;
 }
-.conheca-o-vitoria .vitoria72 {
-    height: 10px;
-    flex-direction: column;
+@media screen and (min-width: 1200px) {
+    .vitoria72 > img  {
+        width: 500px;
+    }
 }
-
