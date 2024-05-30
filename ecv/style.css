@@ -39,11 +39,9 @@ menu > ul > li > a {
     border-top: 2px solid black;
     border-radius: 20px;
 }
-
 menu > ul > li > a:hover {
     background-color: red;
 }
-
 .vitoria {
     background-image: url(../imagem/torcida01.jpg);
     background-size: cover;
@@ -59,6 +57,7 @@ menu > ul > li > a:hover {
     font-size: 2rem;
 }
 .vitoria > .btn {
+   /* font-family: 'Courier New', Courier, monospace; */
    border-radius: 4px;
    padding: 20px 50px;
    color: black;
@@ -66,13 +65,16 @@ menu > ul > li > a:hover {
    background-color:#fff;
    text-transform: uppercase;
 }
-.conheca-o-vitoria {
+.vitoria > .btn:hover{
+    background-color: red;
+}
+.conheca-o-vitoria{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding:  50px;
 }
-.conheca-o-vitoria h2 {
+.conheca-o-vitoriah2 {
     font-size: 2rem;
     margin-bottom: 30px;
 }
