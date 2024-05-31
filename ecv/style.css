@@ -127,7 +127,7 @@ menu > ul > li > a:hover {
     margin-bottom: 20px;
 }
 .arena > p {
-    max-width: 600px;
+    max-width: 500px;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -135,24 +135,27 @@ menu > ul > li > a:hover {
     width: 200px;
     height: 1px;
     border: none;
-    margin-bottom: 70px;
     background-color: black;
 }
 
-.arena .container {
-    width: 100%;
+.container{
     display: flex;
-    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+
 }
 
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .conheca-o-vitoria p {
         font-size: 1rem;
-       
     }
     .vitoria72 > img  {
-        width: 340px;
+        max-width: 400px;
+
+    }
+    .container img {
+        width: 400px;
+
     }
 }
