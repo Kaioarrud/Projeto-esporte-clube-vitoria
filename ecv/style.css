@@ -139,6 +139,13 @@ menu > ul > li > a:hover {
     background-color: black;
 }
 
+.arena .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 
 @media screen and (max-width: 768px) {
     .conheca-o-vitoria p {
