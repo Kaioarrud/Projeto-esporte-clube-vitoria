@@ -55,6 +55,7 @@ menu > ul > li > a:hover {
     display: block;
     }
 }
+
 /* vitoria */
 
 .vitoria {
@@ -111,7 +112,6 @@ menu > ul > li > a:hover {
     height: 1px;
     margin-bottom: 70px;
     border: none;
-    background-color: black;
 }
 .vitoria72 > img  {
     width: 620px;
@@ -143,15 +143,10 @@ menu > ul > li > a:hover {
     align-items: center;
     margin-bottom: 30px;
 }
-.arena-01 >  img {
-   width: 300px;
-   padding: 10px;
-   align-content: space-between;
-   
+main > img{
+    display: flex;
+    width: 370px;
 }
-
-
-
 @media screen and (max-width: 800px) {
     .conheca-o-vitoria p {
         font-size: 1rem;
@@ -160,7 +155,9 @@ menu > ul > li > a:hover {
         max-width: 457px;
     }
     .grid img {
+        width: 470px;
+    }
+    main > img {
         width: 475px;
     }
-    
 }
