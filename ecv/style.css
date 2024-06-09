@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -193,25 +194,40 @@ main > img{
     padding: 20px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
+    .conheca-o-vitoria h2{
+        font-size: 1rem;
+    }
     .conheca-o-vitoria p {
         font-size: 1rem;
     }
     .vitoria72 > img  {
-        max-width: 457px;
+        max-width: 350px;
+    }
+    .arena h2 {
+        font-size: 1rem;
     }
     .grid img {
-        width: 470px;
+        max-width: 350px;
+        height: 200px;
+        align-items: center;
+        padding: 5px;
+
     }
     main > img {
-        padding: 20px;
-        max-width: 457px;
-        height: 200px;
+        padding: 30px;
+        max-width: 400px;
+        align-items: center;
+        height: 210px;
+    }
+    .capitao-cavena {
+        max-width: 300px;
+        padding: 50px;
+        align-items: center;
     }
     .capitao-cavena p{
-       
         margin-bottom: 20px;
-        font-size: 13px;
+        font-size: 10px;
         text-align: center;
         padding: 10px;
     }
